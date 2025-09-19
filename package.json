@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-bstack-tests",
+  "version": "1.0.0",
+  "description": "WebdriverIO tests for BStack Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "test:chrome": "wdio wdio.conf.js --spec tests/bstack_test*.js"
+  },
+  "keywords": [
+    "webdriverio",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.24.0",
+    "@wdio/globals": "^8.24.0",
+    "@wdio/local-runner": "^8.24.0",
+    "@wdio/mocha-framework": "^8.24.0",
+    "@wdio/spec-reporter": "^8.24.0",
+    "browserstack-node-sdk": "^1.42.7",
+    "mocha": "^10.2.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
