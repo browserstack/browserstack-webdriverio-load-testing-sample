@@ -47,14 +47,15 @@ files:
   testConfigs: 
    - wdio.conf.js
 
-# Specify environment variabls in the following manner.
-# sources:
-#  - path/to/env/file  
+# Specify environment variables in the following manner.
 # env:
-#  - name: variable1
-#    value: value1
-#  - name: variable2
-#    value: value2
+#   sources:
+#    - path/to/env/file  
+#   env:
+#    - name: variable1
+#      value: value1
+#    - name: variable2
+#      value: value2
 
 # Set 'headless' to false to run tests in headful mode. This option is supported only when testType is set to WebdriverIO or Playwright.
 headless: false
