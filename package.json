@@ -48,6 +48,9 @@
     },
     "cheerio": {
       "undici": "^7.24.0"
+    },
+    "puppeteer-core": {
+      "tar-fs": "^3.0.7"
     }
   }
 }
