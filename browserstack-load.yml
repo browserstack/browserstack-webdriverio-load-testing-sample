@@ -34,7 +34,7 @@ regions:
     percent: 100 
 
 # Set language to the programming language used in your project. Example: 'java', 'nodejs'.
-# language: nodejs
+language: nodejs
 
 # Set framework to the test framework used in your Selenium project. Example: 'testng'.
 # framework: testng
