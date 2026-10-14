@@ -59,10 +59,10 @@
       "minimatch": "^5.1.8"
     },
     "webdriver": {
-      "undici": "^6.28.0"
+      "undici": "^6.28.1"
     },
     "cheerio": {
-      "undici": "^7.29.0"
+      "undici": "^7.29.1"
     },
     "puppeteer-core": {
       "tar-fs": "^3.0.7"
